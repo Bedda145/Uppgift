@@ -1,0 +1,26 @@
+body {
+    font-family: system-ui, Arial, sans-serif;
+    line-height: 1.6;
+    color: #222;
+    background: #fff;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 16px;
+
+}
+
+a:link, a:visited {color: #0b57d0}
+a:hover {color: #083a9b}
+
+h1 {margin: 0 0 12px;}
+h2 {margin: 16px 0 8px;}
+h3 {margin: 12px 0 6px;}
+
+nav {
+    background: #f5f5f5;
+    border: 1px solid #e0e0e0;
+    padding: 12px;
+    margin: 12px 0 20px;
+}
+
+nav li {margin: 4px 0;}
