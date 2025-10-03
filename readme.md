@@ -1,6 +1,11 @@
-# WebbLexikon - En uppgift i webbutveckling
+# WebbLexikon - Slutprojekt i webbutveckling
 
-Detta projekt är ett personligt lexikon för grundläggande begrepp inom HTML och CSS, skapat som en skoluppgift.
+Detta projekt är ett personligt lexikon som täcker grundläggande begrepp inom HTML och CSS. Projektet skapades som en skoluppgift och är nu slutfört.
+
+### Live-version
+**[Klicka här för att se den färdiga sidan](https://bedda145.github.io/Uppgift/)**
+
+---
 
 ## Ämnen som täcks
 
@@ -10,6 +15,7 @@ Detta projekt är ett personligt lexikon för grundläggande begrepp inom HTML o
 - Länkar
 - Semantiska Element
 - Attribut
+- Forms
 
 ### CSS
 - Grundläggande syntax och selectors
@@ -23,6 +29,5 @@ Detta projekt är ett personligt lexikon för grundläggande begrepp inom HTML o
 - Display
 - Position
 - Flexbox
-
-## Live-version
-*Sidan kommer att finnas live här när GitHub Pages är aktiverat!*
+- Wildcard (*) Selector
+- :root Selector
