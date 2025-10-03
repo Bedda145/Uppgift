@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebbLexikon - :root Selector</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<header>
+    <h1><a href="/">WebbLexikon</a></h1>
+</header>    
+
+<main>
+
+        <p><a href="index.html">Tillbaka</a></p>    
+
+    <article>
+        <h3>root Selector</h3>
+          
+            <p>Vad: en selector för roten av dokumentet (samma som ´&lt;html&gt;´). Används främst för att skapa globala CSS-variabler. Hur: definiera variabler i <b>:root</b> med <b>--variabel-namn: värde;</b>. Använd dem sedan med <b>var(--variabel-namn)</b>. Gör: gör det enkelt att återanvända värden och ändra dem på ett enda ställe.</p>
+
+
+             <code>
+                <xmp>
+  :root {
+    --primary-color: #0056b3;
+    --main-font-size: 16px;
+  }
+
+  body {
+    font-size: var(--main-font-size);
+  }
+  a {
+     color: var(--primary-color);
+  }
+                </xmp>
+             </code>
+    </article>
+
+</main>
+<footer>
+    <p>
+        Slut
+    </p>
+</footer>
+</body>
+
+
+
+
+</html>
